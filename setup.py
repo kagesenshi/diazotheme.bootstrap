@@ -7,7 +7,7 @@ setup(name='diazotheme.bootstrap',
       version=version,
       description="Plone theme based on Twitter's Bootstrap CSS",
       long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open("HISTORY.txt").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
