@@ -1,0 +1,3 @@
+include HISTORY.txt
+recursive-include diazotheme *
+global-exclude *pyc
