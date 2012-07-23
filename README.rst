@@ -19,6 +19,7 @@ Features
   templating of customization addons.
 * Portlets are converted to ``div`` elements instead of ``dl``, ``dt``, ``dd``
 * ``Products.ContentWellPortlets`` is supported, however with some modifications. 
+
   * PortletAboveContentA will appear full width right below logo
   * PortletAboveContentB will appear full width right below breadcrumbs
   * PortletAboveContentC will appear fluid width right above content center 
@@ -28,10 +29,13 @@ Features
   * PortletBelowContentD will appear full width right below
     PortletBelowContentA, PortletBelowContentB, and PortletBelowContentC
   * All PortletFooter will appear as a 6 column slot within the footer area
+
 * ``eea.facetednavigation`` is also supported, with some enhancements.
+
   * The diazo rules rewrite facetednavigation templates to take advantage of
     the responsive design.
   * If the first widget at the top widget slot is a text search widget, it will 
     appear as a full width widget with a different background.
+
 * Installing ``webcouturier.dropdownmenu`` will enhance the top navigation with
   dropdown menus.
