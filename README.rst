@@ -39,3 +39,16 @@ Features
 
 * Installing ``webcouturier.dropdownmenu`` will enhance the top navigation with
   dropdown menus.
+
+Using Bootstrap javascripts
+===========================
+
+This product leaves plone jquery alone not to break existing functionality.
+But bootstrap requires a newer jQuery version. We include the needed one renaming it to jQuery17.
+If you need js functionality from bootstrap you have to use jQuery17, for instance
+
+    $(function() {
+        jQuery17('.tooltipped').tooltip()
+    });
+
+to activate the tooltip plugin on elements with the class "tooltipped".
