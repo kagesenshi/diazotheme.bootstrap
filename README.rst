@@ -28,6 +28,7 @@ Features
     appear as a 3 column portlet slots right below content and sidebar area
   * PortletBelowContentD will appear full width right below
     PortletBelowContentA, PortletBelowContentB, and PortletBelowContentC
+  * PortletBelowContentE will appear right below content center column
   * All PortletFooter will appear as a 6 column slot within the footer area
 
 * ``eea.facetednavigation`` is also supported, with some enhancements.
