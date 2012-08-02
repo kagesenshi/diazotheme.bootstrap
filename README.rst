@@ -18,6 +18,9 @@ Features
 * Turn your site into a pretty Bootstrap based theme, and also simplifies
   templating of customization addons.
 * Portlets are converted to ``div`` elements instead of ``dl``, ``dt``, ``dd``
+* ``presentation_view`` is enhanced with Google's HTML5 slides
+* Included carousel portlet provides a way to display images using Bootstrap's
+  carousel
 * ``Products.ContentWellPortlets`` is supported, however with some modifications. 
 
   * PortletAboveContentA will appear full width right below logo
